@@ -21,11 +21,6 @@ yarn dev
 
 Update the .env file with the default URL endpoint of your ImageKit account. You can find this in your ImageKit dashboard. Read more about [URL endpoints for file delivery](https://imagekit.io/docs/integration/connect-external-storage#url-endpoints). 
 
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
 ## Project Features
 
 This project demonstrates various ways of embedding videos on the web and creating native video experiences. You can start by visiting `http://localhost:3000/`
