@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Native Video Experiences in Next.js using ImageKit
+This project demonstrates different methods of creating native video experiences on websites.
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Features
 
-## Learn More
+This project demonstrates various ways of embedding videos on the web and creating native video experiences. You can start by visiting `http://localhost:3000/`
 
-To learn more about Next.js, take a look at the following resources:
+### 1. YouTube Embed
+- **Route:** `/demo/youtube-embed`
+- **Description:** This page showcases how to embed YouTube videos within a Next.js application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 2. HTML5 Video Player
+- **Route:** `/demo/html5-video-tag`
+- **Description:** This page demonstrates the use of a native HTML5 video tag, enhanced with the ImageKit's video optimizations and transformations using the ImageKit NextJS Video Component for optimized video delivery.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 3. Adaptive Bitrate Streaming
+- **Route:** `/demo/adaptive-streaming-videojs`
+- **Description:** This page uses adaptive bitrate streaming using VideoJS player combined with ImageKit's real-time ABS transformationss, allowing for smooth video playback across varying network conditions.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 4. Vertical Reels-like Interface
+- **Route:** `/demo/vertical-videos`
+- **Description:** This page demonstrates a vertical reels-like video interface, utilizing VideoJS for adaptive streaming and ImageKit for creating video thumbnails, short trailers and HLS streaming to deliver a seamless viewing experience.
