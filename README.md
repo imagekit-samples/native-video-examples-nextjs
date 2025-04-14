@@ -17,7 +17,8 @@ npm run dev
 yarn dev
 ```
 
-** Update the correct URL endpoint **
+**Update the correct URL endpoint**
+
 Update the .env file with the default URL endpoint of your ImageKit account. You can find this in your ImageKit dashboard. Read more about [URL endpoints for file delivery](https://imagekit.io/docs/integration/connect-external-storage#url-endpoints). 
 
 
