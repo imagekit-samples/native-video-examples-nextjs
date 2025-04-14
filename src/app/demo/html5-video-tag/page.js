@@ -13,7 +13,7 @@ const mediaLibraryVideo = "webinar-content/native-videos/space_shuttle_launch.mp
 export default function Home() {
   //URL Endpoint in ImageKit for loading videos
   const ImageKitURLEndpoint = process.env.NEXT_PUBLIC_IK_URL_ENDPOINT;
-  console.log(ImageKitURLEndpoint);
+  
   return (
     <div className="flex max-w-200 flex-1 mt-20 flex-col justify-center content-center mx-auto">
       <h1 className='w-full text-3xl font-bold mb-5'>Video using HTML5 video tag</h1>
